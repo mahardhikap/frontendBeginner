@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="../assets/css/font.css">
   </head>
   <body>
-    <nav class="navbar navbar-expand-sm bg-none py-5">
+    <nav class="navbar navbar-expand-sm bg-none pt-5">
       <div class="container w-100">
         <button
           class="navbar-toggler"
@@ -29,7 +29,7 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="d-flex justify-content-between align-items-center w-100">
-            <div class="navbar-nav gap-4">
+            <div class="navbar-nav gap-4 mt-4">
               <a class="text-decoration-none" href="../index.html">Home</a>
               <a class="text-decoration-none" href="./add-menu.html">Add Recipe</a>
               <a class="text-decoration-none" href="./search-menu.html">Search Menu</a>
@@ -64,7 +64,14 @@
                     - a little butter
                 </textarea>
             </div>
-            <input type="text" name="" id="edit-category" value="Main Course" class="edit-category p-3 mt-5 border-0 rounded">
+            <div class="mt-5 col-sm-12 col-md-6">
+              <select class="form-select p-3 addcategory border-0" id="floatingSelect" aria-label="Floating label select example">
+                <option disabled>Category</option>
+                <option selected value="1">Main Course</option>
+                <option value="2">Desert</option>
+                <option value="3">Appetizer</option>
+              </select>
+            </div>
             <div class="text-center">
                 <button class="p-3 bg-warning text-white rounded border-0 my-5 w-75">Post</button>
             </div>
@@ -90,7 +97,7 @@
         </div>
   </section>
     <footer class="text-center bg-warning pt-5">
-        <h1 class="mt-5">Eat, Cook, Repeat</h1>
+        <h1 class="mt-5 text-purple">Eat, Cook, Repeat</h1>
         <p>Share Your Best Recipe By Uploading Here !</p>
         <div class="row justify-content-end m-0 p-0 mt-5 pt-5 pb-4">
             <div class="d-flex justify-content-center col-lg-4">
