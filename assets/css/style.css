@@ -91,6 +91,53 @@ nav .navbar-nav a{
     top: 1700px;
     z-index: -100;
 }
+
+footer p, footer ul li{
+    color: #707070;
+}
+
+.form-style-custom input{
+    outline: none;
+}
+
+.form-style-custom input:hover{
+    border: 2px solid #EFC81A;
+    box-shadow: 0px 0px 10px black;
+}
+
+.form-style-custom button{
+    background-color: #EFC81A;
+}
+
+.form-style-custom button:hover{
+    background-color: #ffd82c;
+}
+
+.button-custom{
+    background-color: #EFC81A;
+}
+.button-custom:hover{
+    background-color: #ffd82c;
+}
+
+.bullets-wrapper{
+    width: 70px;
+    left: -60px;
+    top: 70px;
+}
+
+.bullets{
+    background-color: #E6E6E6;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+
+/* ------------------------ home ----------------------------- */
+.popular-recipe-font{
+    color: #3F3A3A;
+}
+
 /* How to make checkbox yellow*/
 .check-wrap {
     display: block;
@@ -251,4 +298,5 @@ nav .navbar-nav a{
     .yellow-big-square::after{display: none;}
     .square-border::after{display: none;}
     .square-block::after{display: none;}
+    .bullets-wrapper .bullets{display: none;}
 }
